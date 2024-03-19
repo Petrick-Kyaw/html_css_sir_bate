@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+.nav-top{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  gap: 15px;
+  background-color: #121212;
+  height: 40px;
+}
+.nav-top li {
+  padding-top: 10px;
+}
+.nav-top li a {
+  text-decoration: none;
+  color: rgb(232, 232, 237);
+}
