@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: myfont;
+  src: url(../fonts/HoltwoodOneSC-Regular.ttf);
+}
+html{
+  font-family: myfont;
+}
