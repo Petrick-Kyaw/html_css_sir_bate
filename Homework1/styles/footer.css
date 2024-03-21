@@ -1,0 +1,42 @@
+.footer{
+  background-image: url(../photos/if.webp);
+  background-position:20% 20%;
+  background-size:contain;
+  padding: 40px 10px;
+  margin-top: 10px;
+}
+.first-footer{
+  display: grid;
+  grid-template-columns: 100px 1fr 2fr 1fr;
+}
+.social-logo-container{ 
+  display: grid;
+  grid-template-columns: 40px 40px 40px;
+}
+.footer-logo{
+  width: 70px;
+}
+.social-logo{
+  width: 30px;
+}
+.up-arrow{
+  width: 50px;
+}
+.footer-menu-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-menu-container a{
+  text-decoration: none;
+  color: rgb(233, 223, 19);
+  font-size: 20px;
+}
+.up-arrow-container{
+  position: relative;
+}
+.up-arrow{
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}

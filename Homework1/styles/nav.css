@@ -1,18 +1,21 @@
 .nav-container{
   display: flex;
-  justify-content: space-between;
+  justify-content:end;
   align-items: center;
-  gap: 5px;
-  background-color: rgb(110, 9, 11);
+  background-color:rgb(231, 32, 35); 
   height: 60px;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  z-index: 1;
+  opacity: 0.8;
 }
 .title-logo-container{
-  flex: 1;
+  width: 150px;
   padding-left: 50px;
 }
 .main-menu-list-container{
   flex: 2;
-  padding-right: 150px;
 }
 .title-logo-container img{
   transition: all 0.5s;
@@ -28,13 +31,21 @@
   justify-content: space-between;
   list-style-type: none;
 }
-.menu-list-container p{
-  color: rgb(233, 223, 19);
+.menu-list-container{
+  background-color: black;
+  padding: 17px 35px;
 }
 .menu-list-container a{
   text-decoration: none;
-  transition: all 0.8s;
 }
+.menu-list-container p{
+  color: rgb(233, 223, 19);
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
 .menu-list-container p:hover{
   transform: translate(-10px,-10px);
 }

@@ -1,0 +1,20 @@
+.section-three{
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgb(110, 9, 11);
+}
+.villains-profile{
+  height: 100%;
+  border: 5px solid rgb(233, 223, 19);;
+}
+.villains-name{
+  font-size: 50px;
+}
+.villains-img{
+  width: 100%;
+  height: calc(729.6px - (81.6px + 10px));
+  object-fit: cover;
+  object-position: center;
+}

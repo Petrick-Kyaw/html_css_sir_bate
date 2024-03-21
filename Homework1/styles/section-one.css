@@ -32,14 +32,19 @@
 .profile-btn{
   width: 250px;
   padding: 10px;
-  border: 1px solid red;
   border-radius: 10px;
+  border: none;
   display: flex;
-  background-color: rgb(155, 85, 85);
+  background-color: rgba(155, 85, 85, 0.3);
   justify-content: space-between;
   align-items: center;
   margin-left: 25px;
   margin-top: 2px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.15);
+  transition: box-shadow, 0.5s;
+}
+.profile-btn:hover{
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
 }
 .btn-p{
   font-size: 20px;

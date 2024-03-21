@@ -9,4 +9,6 @@
 }
 html{
   font-family: myfont;
+  scroll-behavior: smooth;
+  background-color: black;
 }
