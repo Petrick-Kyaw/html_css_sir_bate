@@ -1,0 +1,13 @@
+@keyframes myAni{
+  0%{transform: rotate(0deg);}
+  50%{transform: rotate(180deg);border-radius: 20%;}
+  100%{transform: rotate(0deg); border-radius: 50%;}
+}
+.animate-1{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  animation-name: myAni;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
